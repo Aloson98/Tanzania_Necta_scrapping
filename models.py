@@ -4,16 +4,40 @@ class School(Document):
     """Model class for recording school details"""
     school_name = StringField()
     school_index = StringField()
+    school_region = StringField(required=False)
     
     def __str__(self):
         return self.school_name
 
+
+class SchoolGPA(Document):
+    school = ReferenceField(School, required=True, reverse_delete_rule=CASCADE)
+    result_year = IntField(required=True)
+    year_gpa = IntField(required=True)
+    total_passed = IntField(required=True)
+    
+    def __str__(self):
+        return f"{self.school} - {self.year_gpa} ({self.result_year})"
+
+
+class SubjectPerformance(Document):
+    school = ReferenceField(School, required=True, reverse_delete_rule=CASCADE)
+    result_year = IntField(required=True)
+    subject_name = StringField(required=True)
+    subject_gpa = IntField(required=True)
+    subject_code = IntField(required=True)
+    
+    
+    def __str__(self):
+        return f"{self.subject_name} - {self.subject_gpa} ({self.result_year})"
+    
 
 class StudentSubjectResults(Document):
     """Model class for recording student results"""
     GRADE_CHOICES = ('A', 'B', 'C', 'D', 'E', 'F', 'S', 'X')
     
     school = ReferenceField(School, required=True, reverse_delete_rule=CASCADE)
+    result_year = IntField(required=True)
     
     #Unique data index within the school
     data_index = IntField(required=True)
