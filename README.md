@@ -57,10 +57,10 @@ Ensure you have the following installed:
 
 ## Usage
 
-Run the scraper with the following command:
+Inside collection, Run the scraper with the following command:
 
 ```bash
-python scraper.py
+python main.py
 ```
 
 Ensure that MongoDB is running before executing the script.
