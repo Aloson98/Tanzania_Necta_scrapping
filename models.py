@@ -1,4 +1,4 @@
-from mongoengine import Document, StringField, ReferenceField, IntField, CASCADE
+from mongoengine import Document, StringField, ReferenceField, IntField, FloatField, CASCADE
 
 class School(Document):
     """Model class for recording school details"""
@@ -13,7 +13,7 @@ class School(Document):
 class SchoolGPA(Document):
     school = ReferenceField(School, required=True, reverse_delete_rule=CASCADE)
     result_year = IntField(required=True)
-    year_gpa = IntField(required=True)
+    year_gpa = FloatField(required=True)
     total_passed = IntField(required=True)
     
     def __str__(self):
@@ -24,7 +24,7 @@ class SubjectPerformance(Document):
     school = ReferenceField(School, required=True, reverse_delete_rule=CASCADE)
     result_year = IntField(required=True)
     subject_name = StringField(required=True)
-    subject_gpa = IntField(required=True)
+    subject_gpa = FloatField(required=True)
     subject_code = IntField(required=True)
     
     
@@ -66,6 +66,7 @@ class StudentSubjectResults(Document):
     hn_nutrition = StringField(db_field="HN NUTRITION", required=False, choices=GRADE_CHOICES)
     phy_edu = StringField(db_field="PHY EDU", required=False, choices=GRADE_CHOICES)
     fine_art = StringField(db_field="FINE ART", required=False, choices=GRADE_CHOICES)
+    chinese = StringField(db_field="CHINESE", required=False, choices=GRADE_CHOICES)
     
     meta = {
         'indexes': [

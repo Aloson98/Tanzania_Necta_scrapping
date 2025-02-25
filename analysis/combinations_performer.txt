@@ -1,0 +1,63 @@
+
+Top performers for PCB:
+                                   PCB
+TABORA BOYS' SECONDARY SCHOOL   30.622
+KEMEBOS SECONDARY SCHOOL       31.7114
+MZUMBE SECONDARY SCHOOL        32.7905
+AHMES SECONDARY SCHOOL         36.3528
+KIBAHA SECONDARY SCHOOL        36.9381
+--------------------------------------------------
+
+Top performers for PCM:
+                                   PCM
+KEMEBOS SECONDARY SCHOOL       24.9133
+TABORA BOYS' SECONDARY SCHOOL  27.8174
+MZUMBE SECONDARY SCHOOL        29.0058
+KISIMIRI SECONDARY SCHOOL       29.733
+AHMES SECONDARY SCHOOL         30.8913
+--------------------------------------------------
+
+Top performers for CBG:
+                                    CBG
+KEMEBOS SECONDARY SCHOOL        31.3732
+TABORA BOYS' SECONDARY SCHOOL   33.1729
+MZUMBE SECONDARY SCHOOL         36.4961
+AHMES SECONDARY SCHOOL           36.534
+TABORA GIRLS' SECONDARY SCHOOL  38.1453
+--------------------------------------------------
+
+Top performers for HGL:
+                                    HGL
+KEMEBOS SECONDARY SCHOOL        34.8712
+DAREDA SECONDARY SCHOOL         35.4572
+AHMES SECONDARY SCHOOL          35.6408
+TABORA BOYS' SECONDARY SCHOOL   36.1464
+TABORA GIRLS' SECONDARY SCHOOL  36.3438
+--------------------------------------------------
+
+Top performers for HGK:
+                                      HGK
+KEMEBOS SECONDARY SCHOOL          30.5926
+DAREDA SECONDARY SCHOOL           30.9058
+AHMES SECONDARY SCHOOL            32.1027
+LAKE TANGANYIKA SECONDARY SCHOOL  33.8892
+NYAISHOZI SECONDARY SCHOOL        35.4694
+--------------------------------------------------
+
+Top performers for HGE:
+                                            HGE
+KEMEBOS SECONDARY SCHOOL                33.2564
+AHMES SECONDARY SCHOOL                   33.561
+ZAKIA MEGHJI SECONDARY SCHOOL           38.6475
+NYAISHOZI SECONDARY SCHOOL              39.4625
+ST.MARY'S MAZINDE JUU SECONDARY SCHOOL   39.589
+--------------------------------------------------
+
+Top performers for EGM:
+                                            EGM
+KEMEBOS SECONDARY SCHOOL                26.8442
+AHMES SECONDARY SCHOOL                   29.952
+ST.MARY'S MAZINDE JUU SECONDARY SCHOOL  36.4023
+FEZA BOYS' SECONDARY SCHOOL             36.7346
+MARIAN BOYS'  SECONDARY SCHOOL          38.3362
+--------------------------------------------------
